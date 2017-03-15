@@ -12,7 +12,7 @@ After months of hard work, trial and error, and fighting with CSS alignment, we 
 
 <!--more-->
 
-# Release the Yeti!
+## Release the Yeti!
 
 Yeti is a platform meant to organize observables, indicators of compromise, TTPs, and knowledge on threats in a single, unified repository. Yeti will also automatically enrich observables (e.g. resolve domains, geolocate IPs) so that you don't have to. Yeti provides an interface for humans (shiny Bootstrap-based UI) and one for machines (web API) so that your other tools can talk nicely to it.
 
