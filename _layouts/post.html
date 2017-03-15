@@ -17,6 +17,12 @@ class: 'post-template'
         {% if page.navigation %}
             <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
         {% endif %}
+        <div class="inner">
+          <header class="post-header">
+              <h1 class="post-title">{{ page.title }}</h1>
+            </header>
+        </div>
+
     </nav>
 </header>
 
@@ -24,24 +30,20 @@ class: 'post-template'
 
     <article class="{{ page.subclass }}">
 
-        <header class="post-header">
-            <h1 class="post-title">{{ page.title }}</h1>
-            <section class="post-meta">
-            <!-- <a href='{{ site.baseurl }}{{ page.about }}'>{{ site.author }}</a> -->
-            <time class="post-date" datetime="{{ page.date | date:'%Y-%m-%d' }}">{{ page.date | date_to_string }}</time>
-                <!-- [[tags prefix=" on "]] -->
-                {% if page.tags.size > 0 %}
-                on
-                {% for tag in page.tags %}
-                    {% if forloop.index == page.tags.size %}
-                       {{ tag | capitalize }}
-                    {% else %}
-                       {{ tag | capitalize }},
-                    {% endif %}
-                {% endfor %}
+        <section class="post-meta">
+        <time class="post-date" datetime="{{ page.date | date:'%Y-%m-%d' }}">{{ page.date | date_to_string }}</time>
+            <!-- [[tags prefix=" on "]] -->
+            {% if page.tags.size > 0 %}
+            posted in 
+            {% for tag in page.tags %}
+                {% if forloop.index == page.tags.size %}
+                   {{ tag | capitalize }}
+                {% else %}
+                   {{ tag | capitalize }},
                 {% endif %}
-            </section>
-        </header>
+            {% endfor %}
+            {% endif %}
+        </section>
 
         <section class="post-content">
 

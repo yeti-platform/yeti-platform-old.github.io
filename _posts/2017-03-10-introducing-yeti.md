@@ -1,27 +1,33 @@
 ---
 layout: post
 cover: 'assets/images/cover2.jpg'
-title: Introducing Yeti
+title: Introducing the Yeti
 date: 2017-03-10 08:00:00
 tags: announcements
 subclass: post
 author: tomchop
 ---
 
+After months of hard work, trial and error, and fighting with CSS alignment, we are happy to announce the release of Yeti: Your everyday Threat Intelligence platform. Although originally an independent project, Yeti would not have been able to exist without the team at [CERT Société Générale](https://twitter.com/certsg/){:target="_blank" class="external"}, who put in countless hours testing the tool and orienting development to best suit their needs.
+
+<!--more-->
+
 # Release the Yeti!
-
-After months of hard work, trial and error, and fighting with CSS alignment, we are happy to announce the release of Yeti: Your everyday Threat Intelligence platform. Although originally an independent project, Yeti would not have been able to exist without the team at CERT Société Générale, who put in countless hours debugging the tool and orienting development to best suit their needs.
-
-**Since it was raised in a very dynamic environment, Yeti is made to make Threat Intelligence management quick, efficient, and interoperable.**
 
 Yeti is a platform meant to organize observables, indicators of compromise, TTPs, and knowledge on threats in a single, unified repository. Yeti will also automatically enrich observables (e.g. resolve domains, geolocate IPs) so that you don't have to. Yeti provides an interface for humans (shiny Bootstrap-based UI) and one for machines (web API) so that your other tools can talk nicely to it.
 
-GitHub Repo: https://github.com/yeti-platform/yeti
-Documentation is on ReadTheDocs: http://yeti-platform.readthedocs.io/en/latest/
+{:.yeti-highlight}
+Since it was raised in a very dynamic environment, Yeti is made to make Threat Intelligence management quick, efficient, and interoperable.
 
-## Some extra information
+GitHub Repo: [https://github.com/yeti-platform/yeti](https://github.com/yeti-platform/yeti){:target="_blank" class="external"}
+Installation instructions: [http://yeti-platform.readthedocs.io/en/latest/installation.html](http://yeti-platform.readthedocs.io/en/latest/installation.html)
+Getting started with Yeti: [http://yeti-platform.readthedocs.io/en/latest/getting-started.html](http://yeti-platform.readthedocs.io/en/latest/getting-started.html)
+Full documentation is on ReadTheDocs: [http://yeti-platform.readthedocs.io/en/latest/](http://yeti-platform.readthedocs.io/en/latest/){:target="_blank" class="external"}
 
-Yeti was born out of frustration of having to answer the question "where have I seen this artifact before?" or Googling crimeware domains to tie them to a family.
+
+## How Yeti came to be
+
+Yeti was born out of frustration of having to answer the question "where have I seen this artifact before?" or Googling shady domains to tie them to a malware family.
 
 In a nutshell, Yeti allows you to:
 
@@ -41,3 +47,11 @@ This is done by:
   and enrichment (think malware sandbox).
 * Export the data in user-defined formats so that they can be ingested by
   third-party applications (think blocklists, SIEM).
+
+## Under the hood
+
+Yeti is mostly written in Python and JavaScript. Under the hood, it uses several other open-source projects:
+
+* MongoDB: A document-oriented datastore
+* Redis: A key-value storage (used by Celery for scheduling)
+* Celery: A scheduler (uses Redis)

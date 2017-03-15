@@ -48,3 +48,5 @@ exclude:
   - "*.Rmd"
   - vendor
   - .travis.yml
+
+excerpt_separator: <!--more-->
