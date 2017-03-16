@@ -8,7 +8,7 @@ subclass: post
 author: tomchop
 ---
 
-After months of hard work, trial and error, and fighting with CSS alignment, we are happy to announce the release of Yeti: Your everyday Threat Intelligence platform. Although originally an independent project, Yeti would not have been able to exist without the team at [CERT Société Générale](https://twitter.com/certsg/){:target="_blank" class="external"}, who put in countless hours testing the tool and orienting development to best suit their needs.
+After months of hard work, trial and error, and fighting with CSS alignment, we are happy to announce the release of Yeti: Your everyday Threat Intelligence platform. Although originally an independent project, Yeti would not have been able to exist without the team at [CERT Société Générale](https://cert.societegenerale.com/){:target="_blank" class="external"}, who put in countless hours testing the tool and orienting development to best suit their needs.
 
 <!--more-->
 
