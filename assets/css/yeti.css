@@ -105,6 +105,48 @@ div.logos {
   display: block;
 }
 
+/* menu */
+
+.main-header {
+  margin-bottom: 0;
+}
+
+.menu {
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+  border-bottom: 1px solid #DDD;
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  margin: 0 auto;
+  width: -webkit-fit-content;
+       width: -moz-fit-content;
+            width: fit-content;
+}
+
+.menu li {
+  float: left;
+  padding: 14px 46px;
+
+}
+
+.menu li a {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #AAA;
+  border-bottom: 3px solid white;
+}
+
+.menu li a:hover {
+  border-bottom: 3px solid #333;
+}
+
 
 /* posts */
 

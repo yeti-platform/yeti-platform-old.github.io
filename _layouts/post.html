@@ -22,9 +22,10 @@ class: 'post-template'
               <h1 class="post-title">{{ page.title }}</h1>
             </header>
         </div>
-
     </nav>
 </header>
+
+{% include menu.html %}
 
 <main class="content" role="main">
 
@@ -34,7 +35,7 @@ class: 'post-template'
         <time class="post-date" datetime="{{ page.date | date:'%Y-%m-%d' }}">{{ page.date | date_to_string }}</time>
             <!-- [[tags prefix=" on "]] -->
             {% if page.tags.size > 0 %}
-            posted in 
+            posted in
             {% for tag in page.tags %}
                 {% if forloop.index == page.tags.size %}
                    {{ tag | capitalize }}

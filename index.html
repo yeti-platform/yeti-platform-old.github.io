@@ -33,8 +33,12 @@ current: home
     <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
 </header>
 
+
+
 <!-- The main content area on the homepage -->
 <main id="content" class="content" role="main">
+
+  {% include menu.html %}
 
   <!-- <div class="section-header">
     <h1>Your Everyday Threat Intel</h1>
@@ -111,5 +115,4 @@ current: home
   </div>
     <!-- The tag below includes the post loop - partials/loop.hbs -->
     {% include loop.html %}
-
 </main>
