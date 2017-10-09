@@ -186,3 +186,9 @@ body:not(.post-template) .post-title {
   padding-left: 30px;
   margin-left: 10px;
 }
+
+small.copyright {
+  color:#333;
+  font-size: 11px;
+  font-style: italic;
+}
