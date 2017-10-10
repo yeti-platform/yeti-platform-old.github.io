@@ -16,7 +16,7 @@ Yeti is a relatively new player in the threat intel platform game. How does it f
 
 ## Yeti is a social animal
 
-It might not be known to most cyrptozoologists, but Yeti is a social animal. Sure, it may be good enough as a threat actor encyclopedia, but there's so much more you can do with it!
+It might not be known to most cryptozoologists, but Yeti is a social animal. Sure, it may be good enough as a threat actor encyclopedia, but there's so much more you can do with it!
 
 Yeti's ideal world is a world where all its features are put to good use. That includes data-oriented features such as feeds, analytics and exports, but also more high-level information such as describing TTPs and tying them to different actors. FAME and FIR, by the awesome CERT Société Générale team have features that allow them to work closely with Yeti, both pushing and pulling information.
 
@@ -26,7 +26,7 @@ Yeti, [FIR](https://github.com/certsocietegenerale/FIR){:target="_blank" class="
 
 Besides being an extensible incident management platform, FIR parses any observables present in an incident's description or comments and sends them to Yeti to see what it knows about them, displaying any matches. On the other hand, unrecognized observables can be pushed to Yeti and tagged.
 
-FAME is also closely integrated with Yeti. Whenever observables are extracted form a sample (through one of [FAME's many modules](https://github.com/certsocietegenerale/fame_modules){:target="_blank" class="external"}), they are matched against what Yeti knows and results are shown in the FAME analysis result page. Unknown observables, once again, can be tagged and pushed to Yeti so that association can be quickly made with other submitted samples.
+FAME is also closely integrated with Yeti. Whenever observables are extracted from a sample (through one of [FAME's many modules](https://github.com/certsocietegenerale/fame_modules){:target="_blank" class="external"}), they are matched against what Yeti knows and results are shown in the FAME analysis result page. Unknown observables, once again, can be tagged and pushed to Yeti so that association can be quickly made with other submitted samples.
 
 ![Yeti's small family]({{ "/assets/images/yeti-eco1.png" | absolute_url }}){:style="width:90%;"}
 
