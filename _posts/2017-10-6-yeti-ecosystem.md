@@ -34,7 +34,7 @@ This is probably one of the best ways you can setup Yeti in your day-to-day inci
 
 ### Interaction with other services
 
-Yeti is one of the many tools to have been released more or less recently that aim to make threat intelligence management easier. There's a very large combination of tools with which compile feeds and enrich them, achieving a similar result to the one described above.
+Yeti is one of the many tools to have been released more or less recently that aim to make threat intelligence management easier. There's a very large combination of tools with allow you to compile feeds data and enrich it, achieving a similar result to the one described above.
 
 The good news is that Yeti is very flexible in that way, and having both feeding and exports capabilities, can easily be plugged in your existing ecosystem. Yeti is very likely complimentary to other systems that already exist and will give you a different approach on your data and the intelligence analysis you might carry out on it.
 
