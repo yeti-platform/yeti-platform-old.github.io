@@ -44,4 +44,4 @@ The good news is that Yeti is very flexible in that way, and having both feeding
 
 ### Extending Yeti to your needs
 
-It's alto worth noting that Yet was designed with modularity in mind. It's fairly easy to create new feeds, analytics and exports. Yeti's full system can also be leveraged via the HTTP API so interacting with it from other tools or even the command-line should be pretty straightforward. Python bindings to the HTTP API (work in progress) are available in the [pyeti](https://github.com/yeti-platform/pyeti) repository.
+It's alto worth noting that Yeti was designed with modularity in mind. It's fairly easy to create new feeds, analytics and exports. Yeti's full system can also be leveraged via the HTTP API so interacting with it from other tools or even the command-line should be pretty straightforward. Python bindings to the HTTP API (work in progress) are available in the [pyeti](https://github.com/yeti-platform/pyeti) repository.
