@@ -4,7 +4,7 @@ cover: 'assets/images/cover-snow.jpg'
 cover-copyright: Tadamasa Sawada
 cover-copyright-link: https://flic.kr/p/S5pKHm
 title: Yeti's ecosystem
-date: 2017-10-10 21:00:00
+date: 2017-10-11 08:00:00
 tags: use-cases
 subclass: post
 author: tomchop
