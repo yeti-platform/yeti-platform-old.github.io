@@ -19,10 +19,10 @@ Yeti is a platform meant to organize observables, indicators of compromise, TTPs
 {:.yeti-highlight}
 Since it was raised in a very dynamic environment, Yeti is made to make Threat Intelligence management quick, efficient, and interoperable.
 
-GitHub Repo: [https://github.com/yeti-platform/yeti](https://github.com/yeti-platform/yeti){:target="_blank" class="external"}
-Installation instructions: [http://yeti-platform.readthedocs.io/en/latest/installation.html](http://yeti-platform.readthedocs.io/en/latest/installation.html)
-Getting started with Yeti: [http://yeti-platform.readthedocs.io/en/latest/getting-started.html](http://yeti-platform.readthedocs.io/en/latest/getting-started.html)
-Full documentation is on ReadTheDocs: [http://yeti-platform.readthedocs.io/en/latest/](http://yeti-platform.readthedocs.io/en/latest/){:target="_blank" class="external"}
+* GitHub Repo: [https://github.com/yeti-platform/yeti](https://github.com/yeti-platform/yeti){:target="_blank" class="external"}
+* Installation instructions: [http://yeti-platform.readthedocs.io/en/latest/installation.html](http://yeti-platform.readthedocs.io/en/latest/installation.html)
+* Getting started with Yeti: [http://yeti-platform.readthedocs.io/en/latest/getting-started.html](http://yeti-platform.readthedocs.io/en/latest/getting-started.html)
+* Full documentation is on ReadTheDocs: [http://yeti-platform.readthedocs.io/en/latest/](http://yeti-platform.readthedocs.io/en/latest/){:target="_blank" class="external"}
 
 
 ## How Yeti came to be

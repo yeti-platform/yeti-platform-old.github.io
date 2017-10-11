@@ -94,7 +94,10 @@ class: 'post-template'
                     <span class="hidden">Google+</span>
                 </a>
             </section>
-
+            {% if page.cover-copyright %}
+            <br><br>
+             <small class="copyright">Cover photo from <a href="{{page.cover-copyright-link}}">{{page.cover-copyright}}</a></small>
+            {%endif%}
         </footer>
 
     </article>
