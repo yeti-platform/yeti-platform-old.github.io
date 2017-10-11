@@ -4,7 +4,7 @@ cover: 'assets/images/cover-snow.jpg'
 cover-copyright: Tadamasa Sawada
 cover-copyright-link: https://flic.kr/p/S5pKHm
 title: Yeti's ecosystem
-date: 2017-10-06 08:00:00
+date: 2017-10-10 21:00:00
 tags: use-cases
 subclass: post
 author: tomchop
@@ -41,3 +41,7 @@ The good news is that Yeti is very flexible in that way, and having both feeding
 ![Yeti's extended family]({{ "/assets/images/yeti-eco2.png" | absolute_url }}){:width="90%"}
 
 [MISP](http://www.misp-project.org/){:target="_blank" class="external"} can be used as a feed to Yeti, propagating information from the MISP communities you're connected to directly to your defense systems in a way they can understand them. [TheHive](https://thehive-project.org/){:target="_blank" class="external"}, (or rather, [Cortex](https://github.com/CERT-BDF/Cortex){:target="_blank" class="external"}) can use Yeti as a source of enrichment for network artifacts.
+
+### Extending Yeti to your needs
+
+It's alto worth noting that Yet was designed with modularity in mind. It's fairly easy to create new feeds, analytics and exports. Yeti's full system can also be leveraged via the HTTP API so interacting with it from other tools or even the command-line should be pretty straightforward. Python bindings to the HTTP API (work in progress) are available in the [pyeti](https://github.com/yeti-platform/pyeti) repository.
