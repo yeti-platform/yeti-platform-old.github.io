@@ -1,0 +1,4 @@
+baseURL = 'http://yeti-platform.github.io/'
+languageCode = 'en-us'
+title = 'Yeti Platform'
+theme = 'hugo-book'
